@@ -18,6 +18,7 @@
             color: #fff;
             text-align: center;
             padding: 1em;
+            animation: slideDown 1s ease-out; /* Adicionando uma animação de slide-down */
         }
 
         section {
@@ -53,6 +54,16 @@
                 opacity: 1;
             }
         }
+
+        /* Animação de slide-down */
+        @keyframes slideDown {
+            from {
+                transform: translateY(-50px);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
     </style>
 </head>
 <body>
@@ -62,8 +73,9 @@
     </header>
 
     <section>
-        <h2>Sobre Nós</h2>
-        <p>Bem-vindo à dogelo, sua fonte de deliciosas balas de gelatina! Nossas guloseimas são feitas com os melhores ingredientes para garantir sabor e qualidade.</p>
+        <h2>Sobre Nossas Deliciosas Balas de Gelatina</h2>
+        <p>Na "dogelo", acreditamos que cada bala de gelatina é uma pequena explosão de felicidade. Nossas guloseimas são cuidadosamente preparadas para proporcionar uma experiência de sabor única, combinando texturas suaves e sabores intensos.</p>
+        <p>Cada mordida é um convite para um mundo de doçura, e a qualidade premium dos nossos ingredientes é o que torna nossas balas de gelatina verdadeiramente irresistíveis. Descubra o prazer de saborear momentos doces com "dogelo".</p>
     </section>
 
     <section>
