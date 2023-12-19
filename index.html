@@ -38,6 +38,26 @@
             line-height: 1.6; /* Melhora a legibilidade */
         }
 
+        .products {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .product-card {
+            flex: 0 1 calc(30% - 20px);
+            margin-bottom: 20px;
+            background-color: #fff;
+            padding: 10px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+
         footer {
             background-color: #333;
             color: #fff;
@@ -76,6 +96,18 @@
         <h2>Sobre Nossas Deliciosas Balas de Gelatina</h2>
         <p>Na "dogelo", acreditamos que cada bala de gelatina é uma pequena explosão de felicidade. Nossas guloseimas são cuidadosamente preparadas para proporcionar uma experiência de sabor única, combinando texturas suaves e sabores intensos.</p>
         <p>Cada mordida é um convite para um mundo de doçura, e a qualidade premium dos nossos ingredientes é o que torna nossas balas de gelatina verdadeiramente irresistíveis. Descubra o prazer de saborear momentos doces com "dogelo".</p>
+    </section>
+
+    <section class="products">
+        <div class="product-card">
+            <h2>Balas de Gelatina Tipo Cubo</h2>
+            <p>Explore a explosão de sabor em cada cubo. Uma experiência única de doçura e suavidade.</p>
+        </div>
+
+        <div class="product-card">
+            <h2>Balas de Gelatina em Forma de Banana</h2>
+            <p>Divirta-se com nossas balas de gelatina em forma de banana. Um sabor tropical em cada mordida.</p>
+        </div>
     </section>
 
     <section>
