@@ -6,10 +6,10 @@
     <title>dogelo - Balas de Gelatina</title>
     <style>
         body {
-            font-family: 'Comic Sans MS', cursive, sans-serif; /* Alterei a fonte para Comic Sans MS e cursive */
+            font-family: 'Comic Sans MS', cursive, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #FFD700; /* Amarelo vibrante */
             color: #333;
         }
 
@@ -24,13 +24,13 @@
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
-            background-color: #fff;
+            background-color: #FF69B4; /* Rosa vibrante */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 2s ease-out; /* Adicionando uma animação de fade-in */
         }
 
         h1, h2 {
             color: #4CAF50;
-            font-family: 'Comic Sans MS', cursive, sans-serif; /* Alterei a fonte para Comic Sans MS e cursive */
         }
 
         p {
@@ -42,6 +42,16 @@
             color: #fff;
             text-align: center;
             padding: 1em;
+        }
+
+        /* Animação de fade-in */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
         }
     </style>
 </head>
